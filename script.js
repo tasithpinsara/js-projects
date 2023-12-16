@@ -151,4 +151,9 @@ function fnS() {
          document.getElementById("display").innerHTML = parseFloat(fristsave) * parseFloat(secondsave);
      }
  }
+
+ function fnAC() {
+     document.getElementById("display").innerHTML = "0";
+     op = 0;
+ }
  
